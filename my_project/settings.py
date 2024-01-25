@@ -24,12 +24,12 @@ SECRET_KEY = "django-insecure-7xpxs5%**8)ewc)7=m$29=x%kinc&2%b$&o$td\
     @gwwbj&n-*5r"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "8000-balennouri-djangoprojec-5ljk8ay4l5a.ws-eu107.gitpod.io",
     "127.0.0.1:8000",
-    "127.0.0.1",
+    "127.0.0.1", '.herokuapp.com'
 ]
 
 
